@@ -1,0 +1,23 @@
+.button-container{
+    min-height: 100px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.button{
+    width: 100%;
+    background: darkblue;
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.button:disabled{
+    width: 100%;
+    background: rgb(78, 78, 156);
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: not-allowed;
+}
